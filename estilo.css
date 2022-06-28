@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ANIMATIONS */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(22deg, rgba(2,0,36,1) 90%, rgba(77,209,43,1) 100%);
+
+    overflow-x: hidden;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(5, 0, 68, 0.377);
+    width: 100%;
+
+    padding: 5vh;
+    font-size: 2vh;
+
+    margin-top: 5vh;
+}
+
+h1 {
+    color: chartreuse;
+    font-family: Righteous;
+    font-size: 5vmax;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+    color: chartreuse;
+    animation: fadeIn 3s ease-in-out;
+}
+
+p {
+    font-size: 2vh;
+    animation: fadeIn 2s ease-in-out;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+div#intro-pag {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 100%;
+    height: 100vh;
+    padding: 5vh;
+
+}
+
+#intro-pag ul a {
+    display: inline-block;
+    padding: 3vh;
+
+    margin: auto;
+
+    text-decoration: none;
+
+    transition: 0.2s ease-in-out all;
+    animation: fadeIn 4s ease-in-out;
+}
+
+#intro-pag ul a:hover {
+    background-color: rgb(2,0,36);
+    color: chartreuse;
+    transform: scale(1.05);
+}
+
+#intro-pag ul li {
+    color: inherit;
+    text-align: center;
+}
+
+
+
+
+.conteudo-padrao {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10vh;
+
+    background: rgba(9, 14, 83, 0.486);
+    box-shadow: 1px 6px 24px 2px rgba(128, 255, 0, 0.712);
+
+    align-items: center;
+    text-align: center;
+    
+    width: 80%;
+    padding: 5vh;
+
+    animation: fadeIn 2s ease-in-out;
+}
+
+.conteudo-padrao img {
+    width: 40vmax;
+}
