@@ -59,7 +59,6 @@ h2 {
 }
 
 p {
-    font-size: 3vh;
     animation: fadeIn 2s ease-in-out;
 }
 
@@ -105,7 +104,6 @@ div#intro-pag {
 #intro-pag ul li {
     color: inherit;
     text-align: center;
-    font-size: 3vh;
 }
 
 
